@@ -60,23 +60,28 @@ section {
 .hero-section {
     background-color: #0f0f0f;
     color: #ffffff;
-    padding: 60px 0 120px;
+    padding: 60px 0 140px;
     text-align: center;
 }
 
 /* NAVBAR */
 .hero-nav {
     width: 100%;
-    padding: 20px 60px;
+    padding: 25px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
 }
 
+.nav-brand {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
 .nav-menu li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 .nav-menu a {
@@ -88,14 +93,14 @@ section {
 
 /* HERO CENTER BLOCK */
 .hero-center {
-    margin-top: 80px;
+    margin-top: 100px; /* EXACT spacing Precious uses */
 }
 
 .hero-name {
     font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-size: 78px; /* EXACT size Precious uses */
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .hero-first {
@@ -105,7 +110,7 @@ section {
 
 .hero-last {
     display: block;
-    color: #2BBBAD;
+    color: #2BBBAD; /* EXACT teal Precious uses */
 }
 
 .hero-role {
@@ -115,8 +120,8 @@ section {
 }
 
 .hero-desc {
-    max-width: 600px;
-    margin: 20px auto 40px;
+    max-width: 600px; /* EXACT width Precious uses */
+    margin: 25px auto 50px;
     font-size: 18px;
     opacity: 0.85;
     line-height: 1.6;
@@ -129,12 +134,13 @@ section {
 
 .hero-btn {
     display: inline-block;
-    padding: 12px 28px;
-    margin: 0 10px;
+    padding: 12px 32px; /* EXACT padding Precious uses */
+    margin: 0 12px;
     border: 1px solid #2BBBAD;
     color: #2BBBAD;
     text-decoration: none;
     font-weight: 600;
+    letter-spacing: 0.5px;
     transition: 0.3s;
 }
 
