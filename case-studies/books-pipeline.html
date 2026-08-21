@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>BooksToScrape Data Engineering Pipeline — Case Study</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="../assets/css/style.css"> 
+</head> 
+
+<body class="fade-in">
+
+<header class="section-hero">
+    <div class="container">
+        <h1 class="hero-title">BooksToScrape — Data Engineering Pipeline</h1>
+        <p class="hero-subtitle">A complete, production‑style data engineering pipeline built on the BooksToScrape website.</p>
+        <p class="hero-tagline">
+            Automated category discovery, scalable scraping, medallion architecture, and analytics‑ready datasets
+            engineered using Python, DuckDB, MotherDuck, and dbt.
+        </p>
+        <a href="../index.html" class="cta-button">← Back to Portfolio</a>
+    </div>
+</header>
+
+<section class="section-work">
+    <div class="container">
+
+        <!-- Full-width architecture diagram -->
+        <div class="case-diagram fade-in">
+            <img src="../assets/images/books_pipeline_architecture.png" alt="BooksToScrape Pipeline Architecture Diagram">
+        </div>
+
+        <!-- Overview -->
+        <div class="case-study">
+            <h2 class="section-title">Project Overview</h2>
+            <p>
+                The BooksToScrape Data Engineering Pipeline is a full end‑to‑end project demonstrating modern
+                data engineering practices. It includes automated scraping, medallion‑style transformation,
+                and analytics‑ready datasets for downstream reporting.
+            </p>
+        </div>
+
+        <!-- Problem -->
+        <div class="case-study">
+            <h2 class="section-title">Problem</h2>
+            <p>
+                The BooksToScrape website contains valuable product information, but:
+            </p>
+            <ul class="case-metrics">
+                <li>No API exists for structured extraction</li>
+                <li>Categories must be discovered dynamically</li>
+                <li>Data quality varies across pages</li>
+                <li>Manual scraping is slow and inconsistent</li>
+            </ul>
+            <p>
+                A scalable, automated pipeline was needed to ingest, clean, and model the data.
+            </p>
+        </div>
+
+        <!-- Solution -->
+        <div class="case-study">
+            <h2 class="section-title">Solution</h2>
+            <p>
+                I engineered a complete pipeline with:
+            </p>
+            <ul class="case-metrics">
+                <li>Automated category discovery</li>
+                <li>Python web scraping using BeautifulSoup</li>
+                <li>DuckDB + MotherDuck storage</li>
+                <li>dbt transformations and tests</li>
+                <li>Medallion architecture modeling</li>
+            </ul>
+            <p>
+                The result is a clean, scalable, and analytics‑ready dataset.
+            </p>
+        </div>
+
+        <!-- Architecture -->
+        <div class="case-study">
+            <h2 class="section-title">Architecture</h2>
+            <p>The pipeline follows the Medallion Architecture:</p>
+            <ul class="case-metrics">
+                <li><strong>Bronze Layer</strong> — Raw scraped HTML converted into structured tables</li>
+                <li><strong>Silver Layer</strong> — Cleaned, validated, enriched book and category datasets</li>
+                <li><strong>Gold Layer</strong> — Business‑ready models for pricing, ratings, and category insights</li>
+            </ul>
+            <p>Tools used:</p>
+            <ul class="case-metrics">
+                <li>Python (BeautifulSoup, Requests)</li>
+                <li>DuckDB / MotherDuck</li>
+                <li>dbt</li>
+                <li>Jupyter</li>
+            </ul>
+        </div>
+
+        <!-- Impact -->
+        <div class="case-study">
+            <h2 class="section-title">Impact</h2>
+            <ul class="case-metrics">
+                <li>Automated scraping across all categories</li>
+                <li>100% reproducible ingestion pipeline</li>
+                <li>Clean, validated datasets</li>
+                <li>Analytics‑ready gold models</li>
+            </ul>
+        </div>
+
+        <!-- Outcome -->
+        <div class="case-study">
+            <h2 class="section-title">Outcome</h2>
+            <p>
+                The BooksToScrape Pipeline provides:
+            </p>
+            <ul class="case-metrics">
+                <li>A fully automated scraping workflow</li>
+                <li>Structured datasets for analysis</li>
+                <li>Scalable medallion architecture</li>
+                <li>Reliable gold‑layer insights</li>
+            </ul>
+        </div>
+
+        <!-- Links -->
+        <div class="case-study">
+            <h2 class="section-title">Links</h2>
+            <div class="case-links">
+                <a href="https://github.com/olayinkaogunneye/BooksToScrape-Pipeline" target="_blank">View GitHub Repository →</a>
+            </div>
+        </div>
+
+        <!-- Recruiter CTA -->
+        <div class="section-cta">
+            <h2>Looking for a Data / Analytics Engineer?</h2>
+            <p>
+                I build modern, automated data pipelines using Python, dbt, DuckDB, and cloud‑native tools.
+                If this project aligns with your needs, I’d be happy to connect.
+            </p>
+            <a href="mailto:olayinkaogunneye@gmail.com" class="cta-button">Contact Me</a>
+        </div>
+
+    </div>
+</section>
+
+<button id="scrollTopBtn" class="scroll-top-btn">↑</button>
+<script src="../assets/js/main.js"></script>
+
+</body> </html>
