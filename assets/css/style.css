@@ -56,17 +56,21 @@ section {
 /* =========================================
    HERO
 ========================================= */
-.section-hero {
-    padding: 120px 0;
-    text-align: center;
+/* HERO SECTION */
+.hero-section {
     background-color: #0f0f0f;
     color: #ffffff;
+    padding: 60px 0 120px;
+    text-align: center;
 }
 
-.navbar {
+/* NAVBAR */
+.hero-nav {
+    width: 100%;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    align-items: center;
     font-weight: 600;
 }
 
@@ -75,10 +79,23 @@ section {
     margin-left: 30px;
 }
 
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* HERO CENTER BLOCK */
+.hero-center {
+    margin-top: 80px;
+}
+
 .hero-name {
-    font-size: 72px;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 10px;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 20px;
 }
 
 .hero-first {
@@ -91,21 +108,23 @@ section {
     color: #2BBBAD;
 }
 
-.hero-subtitle {
-    font-size: 22px;
+.hero-role {
+    font-size: 20px;
     margin-top: 10px;
     opacity: 0.9;
 }
 
-.hero-tagline {
-    font-size: 18px;
+.hero-desc {
     max-width: 600px;
-    margin: 20px auto;
-    opacity: 0.8;
+    margin: 20px auto 40px;
+    font-size: 18px;
+    opacity: 0.85;
+    line-height: 1.6;
 }
 
+/* BUTTONS */
 .hero-buttons {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .hero-btn {
